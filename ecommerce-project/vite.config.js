@@ -6,10 +6,10 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000'
+        target: 'https://ecommerce-projectt.onrender.com'
       },
       '/images': {
-        target: 'http://localhost:3000'
+        target: 'https://ecommerce-projectt.onrender.com'
       }
     }
   }
